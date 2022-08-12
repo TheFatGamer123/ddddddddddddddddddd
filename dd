@@ -1,0 +1,8 @@
+LP = game.Players.LocalPlayer
+    while true do task.wait()
+        if LP.Character:FindFirstChild("Kamehameha") then
+            LP.Character.HumanoidRootPart.Hit2.Enabled = true
+        else 
+            LP.Character.HumanoidRootPart.Hit2.Enabled = false
+        end 
+      end
